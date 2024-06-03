@@ -70,7 +70,7 @@ public class Arrays {
         return textoChar;
     }
     public  static boolean esEnter (String texto){
-        if (texto.isBlank() || texto.isBlank()){
+        if (texto.isBlank() || texto.isEmpty()){
             return false ;
         }
         for (int i  = 0 ; i < texto.length(); i ++){
