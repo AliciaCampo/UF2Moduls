@@ -104,4 +104,11 @@ public class Arrays {
         System.out.println("");
 
     }
+    public static String charToString (char [] array){
+        String string =  "";
+        for (int i = 0; i< array.length; i++){
+            string += array[i];
+        }
+        return string;
+    }
 }
